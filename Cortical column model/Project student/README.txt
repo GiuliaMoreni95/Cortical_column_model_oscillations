@@ -4,7 +4,7 @@ Here a new version of the cortical column code is provided.
 
 This code reproduce the results of the cortical column with fixed weights (no STDP rule implemented). 
 This code (created by Rares Dorcioman) is a different version of 'MAIN_CODE1_fixed_weights.py'.
-The results are identical. 
+The results should be identical. 
 The 'import_files' are not needed, all the parameters of the neurons are already inside the code.
 With this new version there is no need to download any additional file. 
  
@@ -28,5 +28,9 @@ If you want to send inputs to more populations (not just E4) you should also cha
 In the function 'simulate', below @network_operation you should uncomment 'pop[insert_desired_population_index]' and insert
 the index of the population you want to send the input to.
 
+Note: this version was not direclty used to generate the results of the paper.
+
+
 Best,
-Giulia Morneni
+Giulia Moreni
+

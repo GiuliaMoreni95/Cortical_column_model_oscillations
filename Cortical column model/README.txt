@@ -36,10 +36,12 @@ and continues a simulation with those fixed weights. 'MAIN_CODE3_RestoredNetwork
 
 With Program n.1 the results presented in Fig. 2,3 can be obtained.
 With Program n.2 the connections of excitatory neurons are plastic. With this we can obtain all the results presented in Fig.4
-With Program n.3 all the optogenetic experiments presented in the paper can be performed. (results of Fig. 5,6,7) 
+With Program n.3 all the optogenetic experiments presented in the paper can be performed. (results of Fig. 5,6,7)
 
 To run the MAIN CODES Brain2 should be installed. 
 See https://brian2.readthedocs.io/en/stable/introduction/install.html for installations.
+Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
+type in your terminal: 'python CODE-name.py' to run the desired simualtion.
 
 FINAL REMARKS:
 If you run into any problem while reproducing the results you can always contact me at 

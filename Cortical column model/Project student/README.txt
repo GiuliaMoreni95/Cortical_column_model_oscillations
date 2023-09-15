@@ -24,13 +24,9 @@ Now the input is set to 0, but you can change that number to a negative value to
 You can also change the values there to send desired inputs to other specific populations. 
 The input will start at t_start_DC and end at t_end_DC. These times can also be specified there (just below 'I_DC', see code).
 
-Best,
-
-Giulia Moreni
-
 If you want to send inputs to more populations (not just E4) you should also change the following in 'network_main.py'.
 In the function 'simulate', below @network_operation you should uncomment 'pop[insert_desired_population_index]' and insert
 the index of the population you want to send the input to.
 
-Beset,
-Giulia
+Best,
+Giulia Morneni

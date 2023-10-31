@@ -1,4 +1,4 @@
-# File with the network structure
+# File with the Neuronal and network parameters
 # Coding style similar to NEST implementation of Potjans
 
 from brian2 import *
@@ -77,17 +77,17 @@ class Network_main:
         self.neuron_dict = neuron_dict
         self.receptors_dict = receptors_dict
         self.eqs_dict = eqs_dict
+        
 
         self.num_pops = len(self.net_dict['populations']) # Number of populations
         print('Number of populations:', self.num_pops)
         self.num_neurons = self.net_dict['num_neurons'] # Number of neurons
-        print('Number of neurons in the column:')
         print(self.net_dict['num_neurons'])
 
     def create(self):
         """ Creates network populations and input.
 
-        Neuronal populations and noise generators are created.
+        Neuronal populations and devices (recording and generators) are created.
 
         """
         # self.__create_neuronal_populations()
@@ -100,6 +100,7 @@ class Network_main:
         as well as generator devices and recording devices
 
         """
+        
         self.__connect_poisson_bg_input()
         self.__connect_neuronal_populations()
         self.__connect_recording_devices()
@@ -129,10 +130,9 @@ class Network_main:
         # Here pay attention to add all synapses and objects (incl network operations) to self.net_mon, otherwise they won't be included in the sim!
         self.net_run = Network(update_input, self.spike_mon[:], self.rate_mon[:], pops, self.Poisson_groups[:], self.S_Poisson[:],
                                 self.S_ampa[:], self.S_gaba[:], self.S_nmda[:]) # This uses Brian2 Network class to inlcude the monitors when running the simulation
-        
-  
         self.net_run.run(t_sim)
-        print('Finished simulation!')
+
+        print('Finished simulation')
         print('-----------------------------')
 
 
@@ -142,6 +142,7 @@ class Network_main:
             Stores them in a list, pops
         """
         #print('Creating neuronal populations')
+
         #pops = pops # Class variable to hold populations and work inside the class with
 
     def __create_poisson_bg_input(self):
@@ -275,7 +276,6 @@ class Network_main:
         """
         print('-----------------------------')
         print('Connecting recording devices')
-
 
         self.spike_mon = list(range(self.num_pops)) # List of spike monitors
         self.rate_mon = list(range(self.num_pops)) # List of rate monitors

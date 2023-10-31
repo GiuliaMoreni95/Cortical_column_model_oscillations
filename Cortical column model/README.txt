@@ -43,7 +43,7 @@ See https://brian2.readthedocs.io/en/stable/introduction/install.html for instal
 Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
 type in your terminal: 'python CODE-name.py' to run the desired simualtion.
 
-STUDENT PROJECT folder:
+PROJECT STUDENT folder:
 In this folder a nicer version of the main code is presented. 
 This was implemented by Rares Dorman as part of his internship. 
 

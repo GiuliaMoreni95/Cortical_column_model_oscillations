@@ -1,4 +1,5 @@
 # File with the Neuronal and network parameters
+# V0 should be drawn from standard distributions, same as weights and delays
 
 from brian2 import *
 import matplotlib.pyplot as plt

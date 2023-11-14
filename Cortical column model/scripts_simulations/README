@@ -1,1 +1,16 @@
+The codes in this folder are the codes used to generate all the simulations performed in the paper.
+
+1. Program of the cortical column model with fixed weights. 'MAIN_CODE1_fixed_weights.py'
+2. Program of the cortical column model with Synaptic plasticity STDP. 'MAIN_CODE2_STDPrule.py'
+3. Program that uploads the state of the network after synaptic plasticity 
+and continues a simulation with those fixed weights. 'MAIN_CODE3_RestoredNetwork.py'
+
+With Program n.1 the results presented in Fig. 2,3 can be obtained.
+With Program n.2 the connections of excitatory neurons are plastic. With this we can obtain all the results presented in Fig.4
+With Program n.3 all the optogenetic experiments presented in the paper can be performed. (results of Fig. 5,6,7)
+
+To run the MAIN CODES Brain2 should be installed. 
+See https://brian2.readthedocs.io/en/stable/introduction/install.html for installations.
+Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
+type in your terminal: 'python MAIN_CODE_name.py' to run the desired simualtion.
 

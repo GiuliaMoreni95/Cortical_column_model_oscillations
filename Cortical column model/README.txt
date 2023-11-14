@@ -6,7 +6,7 @@ https://www.biorxiv.org/content/10.1101/2023.08.27.555009v1
 The paper is also provided here in pdf 'Paper_Moreni_etAl.pdf'
 
 REPRODUCIBILITY OF FIGURES:
-All the jupyter notebooks presented here (in 'script_figures') will generate the figures of the paper.
+All the jupyter notebooks presented here (in the folder 'script_figures') will generate the figures of the paper.
 The title of each jupyter netebook corresponds to the desired figure. Running them will show and save the desired figure. 
 To run the jupyter notebooks codes you only need: 
 - python >=3.0
@@ -41,7 +41,7 @@ With Program n.3 all the optogenetic experiments presented in the paper can be p
 To run the MAIN CODES Brain2 should be installed. 
 See https://brian2.readthedocs.io/en/stable/introduction/install.html for installations.
 Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
-type in your terminal: 'python CODE-name.py' to run the desired simualtion.
+type in your terminal: 'python MAIN_CODE_name.py' to run the desired simualtion.
 
 PROJECT STUDENT folder:
 In this folder a nicer version of the main code is presented. 

@@ -6,7 +6,7 @@ https://www.biorxiv.org/content/10.1101/2023.08.27.555009v1
 The paper is also provided here in pdf 'Paper_Moreni_etAl.pdf'
 
 REPRODUCIBILITY OF FIGURES:
-All the jupyter notebooks presented here will generate the figures of the paper.
+All the jupyter notebooks presented here (in 'script_figures') will generate the figures of the paper.
 The title of each jupyter netebook corresponds to the desired figure. Running them will show and save the desired figure. 
 To run the jupyter notebooks codes you only need: 
 - python >=3.0

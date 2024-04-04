@@ -46,8 +46,8 @@ Once you have Brian (and python) installed in your machine (and you have downloa
 type in your terminal: 'python MAIN_CODE_name.py' to run the desired simualtion.
 
 PROJECT STUDENT folder:
-In this folder a nicer version of the main code is presented. 
-This was implemented by Rares Dorman as part of his internship. 
+In this folder a nicer version of the main code is presented. You might want to use and read this fancier version.  
+This was implemented with the help of Rares Dorman as part of his internship. 
 
 FINAL REMARKS:
 If you run into any problem while reproducing the results you can always contact me at 

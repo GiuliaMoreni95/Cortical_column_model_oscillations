@@ -22,7 +22,7 @@ The folder 'simulations_data' contains all the data that you need in order to ge
 These data were obtained by running simulations using the main 3 codes (see below).  
 The folder 'scripts_simulations' contain the 3 main codes used to generate all the results of the simulations. 
 
-The folder 'import_files' contains files that the main code needs to perform the simualations.
+The folder 'import_files' contains files that the main code needs to perform the simulations.
 The folder 'general_files' contains files that the main code produces to save some relevant info.
 
 IMPORTANT:

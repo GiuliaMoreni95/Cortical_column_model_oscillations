@@ -9,7 +9,7 @@ To run the jupyter notebooks codes you only need:
 - matplotlib>=3.4.3
 - seaborn>=0.11.2
 
-(Note: you do need the folder 'import_files', 'general_files' and 'simulations_data' in yoour machine. 
+(Note: you do need the folder 'import_files', 'general_files' and 'simulations_data' in your machine. 
 KEEP the folder structure intact to be able to run ererything without problems)
 
 If you run into problems I will be happy to help you!

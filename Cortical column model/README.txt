@@ -43,7 +43,7 @@ With Program n.3 all the optogenetic experiments presented in the paper can be p
 To run the MAIN CODES Brain2 should be installed. 
 See https://brian2.readthedocs.io/en/stable/introduction/install.html for installations.
 Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
-type in your terminal: 'python MAIN_CODE_name.py' to run the desired simualtion.
+type in your terminal: 'python MAIN_CODE_name.py' to run the desired simulation.
 
 PROJECT STUDENT folder:
 In this folder a nicer version of the main code is presented. You might want to use and read this fancier version.  

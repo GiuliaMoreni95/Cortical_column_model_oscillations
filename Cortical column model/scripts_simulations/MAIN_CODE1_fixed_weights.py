@@ -242,14 +242,14 @@ eqs='''
         I_external = I_ext: amp
 
         # When I want no input and then input activated use this:
-        #I_external= (abs(t-t1*ms)/(t-t1*ms) + 1)* (I_ext/2) : amp #at the beginnig is 0 then the input is activated at t1
+        #I_external= (abs(t-t1*ms+0.001*ms)/(t-t1*ms+0.001*ms) + 1)* (I_ext/2) : amp #at the beginnig is 0 then the input is activated at t1
             
         # If I want: at the beginnig I_ext is 0 then the input is activated at t1 then deactivated at t2 then activated again at t3 use this:
-        #I_external= (abs(t-t1*ms)/(t-t1*ms) + 1) * (I_ext/2)-(abs(t-t2*ms)/(t-t2*ms) + 1) * (I_ext/2) + (abs(t-t3*ms)/(t-t3*ms) + 1) * (I_ext/2)- (abs(t-t4*ms)/(t-t4*ms) + 1) * (I_ext/2) : amp
+        #I_external= (abs(t-t1*ms+0.001*ms)/(t-t1*ms+0.001*ms) + 1) * (I_ext/2)-(abs(t-t2*ms+0.001*ms)/(t-t2*ms+0.001*ms) + 1) * (I_ext/2) + (abs(t-t3*ms+0.001*ms)/(t-t3*ms+0.001*ms) + 1) * (I_ext/2)- (abs(t-t4*ms+0.001*ms)/(t-t4*ms+0.001*ms) + 1) * (I_ext/2) : amp
 
         # When I want 2 inputs at different times going to different layers use this:
         # I need Iext and Iext1
-        #I_external= (abs(t-t1*ms)/(t-t1*ms) + 1)* (I_ext/2) + (abs(t-t2*ms)/(t-t2*ms) + 1)* (I_ext1/2) : amp #at the beginnig is 0 then the input is activated
+        #I_external= (abs(t-t1*ms+0.001*ms)/(t-t1*ms+0.001*ms) + 1)* (I_ext/2) + (abs(t-t2*ms+0.001*ms)/(t-t2*ms+0.001*ms) + 1)* (I_ext1/2) : amp #at the beginnig is 0 then the input is activated
 
         # These are also variable of each neuron, I can later set the value I want when I build them
         I_ext : amp

@@ -1,0 +1,38 @@
+The requirements to be able to run the tutorials for the workshop is to have jupyter notebook installed. Then you also need Nest and Brian.
+
+Here instructions step by step for MAC and LINUX users (for WINDOWS see below):
+
+How to install Jupyter? 
+Downloading Anaconda will automaticlly install Jupyter:
+https://test-jupyter.readthedocs.io/en/latest/install.html
+
+Nest should also be installed: 
+Once you have anaconda type in your terminal: 
+conda create --name ENVNAME -c conda-forge nest-simulator
+(this step may take a while, it is normal).
+Nest is installed!
+More info: https://nest-simulator.readthedocs.io/en/stable/installation/index.html
+
+Brian should also be installed. How?
+Once you have anaconda just type in your terminal:
+conda install -c conda-forge brian2 
+(this step may take a while, it is normal)
+And then type: 
+conda install brian2
+Brian is installed! 
+More info at: https://brian2.readthedocs.io/en/stable/introduction/install.html
+
+IF YOU HAVE WINDOWS:
+
+To install Nest you need a bit more steps.
+You first need to install a virtual box, click on "windows host" in the following link:
+https://www.virtualbox.org/wiki/Downloads
+Once you intsalled the virtualbox and followed the installation steps you can install Nest.
+During the setup of the virtual box I suggest you to set the Virtual box to "linux" system.   
+You can then download Nest Live medium here: 
+https://nest-simulator.readthedocs.io/en/stable/installation/livemedia.html
+and follow the steps in "NEST image setup" in the link. 
+
+Then go inside the virtual box and install Anaconda. 
+Downloading Anaconda will automaticlly install Jupyter:
+https://test-jupyter.readthedocs.io/en/latest/install.html

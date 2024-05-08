@@ -1007,20 +1007,20 @@ print('--------------------------------------------------')
 # I write in files some informations about this simulation 
 # N, runtime, dt_sim, G
 
-f= open("general_files/N.txt", "w")
+f= open("../general_files/N.txt", "w")
 for row in np.array(N):
     np.savetxt(f, row)
 f.close()
 
-f=open("general_files/runtime.txt",'w+') #create the file
+f=open("../general_files/runtime.txt",'w+') #create the file
 f.write('%f ' %runtime)
 f.close()
 
-f=open("general_files/dt_sim.txt",'w+') #create the file
+f=open("../general_files/dt_sim.txt",'w+') #create the file
 f.write('%f ' %dt_sim)
 f.close()
 
-f=open("general_files/G.txt",'w+') #create the file
+f=open("../general_files/G.txt",'w+') #create the file
 f.write('%f ' %G)
 f.close()
 

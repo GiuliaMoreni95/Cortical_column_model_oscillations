@@ -3,7 +3,7 @@ Welcome!
 This project folder contains everything you need to reproduce the results presented in the paper:
 'Cell type specific firing patterns in a V1 cortical column model depend on feedforward and feedback activity' Moreni et Al. 
 https://www.biorxiv.org/content/10.1101/2024.04.02.587673v1.full
-The paper is also provided here in pdf 'Paper2_Moreni_etAl.pdf'
+The first version of the paper is also provided here in pdf 'Paper2_Moreni_etAl.pdf'
 
 REPRODUCIBILITY OF FIGURES:
 All the jupyter notebooks presented here (in the folder 'scripts_figures') will generate the figures of the paper.
@@ -49,8 +49,7 @@ FINAL REMARKS:
 If you run into any problem while reproducing the results you can always contact me at 
 g.moreni@uva.nl and I will be happy to help you!
 
-Update 18/12/2024: In the "REVISIONS_Perturbation-Cortical-column-model
-" folder you have everything you need to reproduce the new version of the paper after revisions from Plos Comp Bio. 
+Update 18/12/2024: In the "REVISIONS_Perturbation-Cortical-column-model" folder you have everything you need to reproduce the new version of the paper after revisions from Plos Comp Bio. 
 
 Best,
 

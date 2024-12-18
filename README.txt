@@ -9,9 +9,11 @@ The project folder "Perturbation cortical column model" contains everything you 
 https://www.biorxiv.org/content/10.1101/2024.04.02.587673v1.full
 
 
-
 Open each folder for more details. 
 
 Best,
 
 Giulia Moreni
+
+
+You can also find the projects at this google drive link: https://drive.google.com/file/d/1Sc5u4ZHwRvS7Hma8WOU2Owb-3xSKntxg/view?usp=sharing

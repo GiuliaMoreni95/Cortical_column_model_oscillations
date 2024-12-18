@@ -49,7 +49,7 @@ FINAL REMARKS:
 If you run into any problem while reproducing the results you can always contact me at 
 g.moreni@uva.nl and I will be happy to help you!
 
-Update 18/12/2024: In the "REVISIONS-Perturbation-Cortical-column-model
+Update 18/12/2024: In the "REVISIONS_Perturbation-Cortical-column-model
 " folder you have everything you need to reproduce the new version of the paper after revisions from Plos Comp Bio. 
 
 Best,

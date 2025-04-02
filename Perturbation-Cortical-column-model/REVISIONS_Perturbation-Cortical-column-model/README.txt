@@ -44,7 +44,7 @@ See https://brian2.readthedocs.io/en/stable/introduction/install.html for instal
 Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder) to run the desired simulation just type in your terminal: 
 'python MAIN_CODE_iterate.py' 
 
-In order to run the script multiple times with a perturbative input each time going to a different cell group, and also with different perturbative inputs that the reviewer asked etc. 
+In order to run the script multiple times with a perturbative input each time going to a different cell group, and also with different perturbative inputs. 
 I used several scripts script_iterations_......sh that call the main code multiple times. 
 (This was useful for the perturbation analysis).
 I apologies: this are note commented  well but I upload them here anyways in case you want to do extra analysis. They might be useful. 

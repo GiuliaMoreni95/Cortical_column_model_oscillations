@@ -45,7 +45,7 @@ See https://brian2.readthedocs.io/en/stable/introduction/install.html for instal
 Once you have Brian (and python) installed in your machine (and you have downloaded this porject folder)
 type in your terminal: 'python MAIN_CODE_name.py' to run the desired simulation.
 
-PROJECT STUDENT folder:
+"Project student" folder:
 In this folder a nicer version of the main code is presented. You might want to use and read this version.  
 This was implemented with by Rares Dorcioman as part of his internship. 
 

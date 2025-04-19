@@ -1,2 +1,0 @@
-These are all the figures that the jupyter notebooks generate.
-
